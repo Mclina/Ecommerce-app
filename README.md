@@ -13,20 +13,29 @@ License
 Technologies Used
 The project leverages the following technologies:
 
-Frontend:
+ Client Side (Front End):
 
 HTML, CSS, and JavaScript
 React.js for building the user interface
-Redux for state management
 Axios for making API requests
-Backend:
+
+Server Side (Back End):
 
 Node.js for the server environment
 Express.js as the web application framework
+
+ Database:
+
 MongoDB for the database
 Mongoose for object modeling
 JSON Web Tokens (JWT) for user authentication
+
 Deployment:
+AWS for deployment and hosting
+
+ External Services:
+Payment Gateway API (e.g.braintree or PayPal).
+Email Service API (e.g., SendGrid)
 
 
 Features
@@ -58,10 +67,10 @@ Create a .env file in the backend directory and provide the necessary configurat
 Start the development servers:
 
 cd frontend
-npm start
+npm run .\client\
 cd ../backend
-npm start
-The frontend will run on http://localhost:3000, and the backend will run on http://localhost:5000.
+npm run server
+The frontend will run on http://localhost:3000, and the backend will run on http://localhost:8080.
 
 Usage
 To use the website, access it through your web browser using the URL provided by the local development server (e.g., http://localhost:3000). You can explore the available products, add them to your cart, proceed to checkout, and manage your orders.
