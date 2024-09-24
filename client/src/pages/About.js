@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="col-md-4">
           <p className="text-justify mt-2">
-            
+          There are limitless offers and deals on this online store. Enjoy up to 80% discount on selected items of the day during the flash sales. We also have Half Price Deals where our shoppers buy selected products like smart watch, mobile phones, laptops, phone accessories, and clothing pieces for half the original price. Get the best prices you can find on the best deals page. 
           </p>
         </div>
       </div>
